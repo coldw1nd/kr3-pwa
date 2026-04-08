@@ -1,4 +1,4 @@
-const CACHE_NAME = 'notes-cache-v3';
+const CACHE_NAME = 'notes-cache-v4';
 const DYNAMIC_CACHE_NAME = 'dynamic-content-v1';
 const ASSETS = [
   '/',
@@ -7,6 +7,7 @@ const ASSETS = [
   '/style.css',
   '/manifest.json',
   '/icons/icon-192.png',
+  '/icons/icon-384-maskable.png',
   '/icons/icon-512.png'
 ];
 
