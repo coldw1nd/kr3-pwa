@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#4285f4">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <title>PWA Менеджер задач</title>
+  <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Менеджер задач</h1>
+    <nav class="tabs is-center">
+      <button id="home-btn" class="tab active col-6">Главная</button>
+      <button id="about-btn" class="tab col-6">О приложении</button>
+    </nav>
+  </header>
+
+  <main id="app-content" class="container"></main>
+
+  <footer class="is-center">
+    <button id="enable-push" class="button success">Включить уведомления</button>
+    <button id="disable-push" class="button error" style="display:none;">Отключить уведомления</button>
+  </footer>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

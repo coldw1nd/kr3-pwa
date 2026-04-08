@@ -1,0 +1,5 @@
+body { padding: 1rem; }
+header h1 { text-align: center; }
+#app-content { margin-top: 2rem; min-height: 50vh; }
+footer { margin-top: 3rem; padding: 1rem; }
+form { margin-bottom: 1rem; }
