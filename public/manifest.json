@@ -17,7 +17,7 @@
       "src": "icons/icon-384-maskable.png",
       "sizes": "384x384",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
       "src": "icons/icon-512.png",

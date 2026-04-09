@@ -1,3 +1,7 @@
+:root {
+    --color-primary: #4285f4;
+}
+
 body { padding: 1rem; }
 header h1 { text-align: center; }
 #app-content { margin-top: 2rem; min-height: 50vh; }
