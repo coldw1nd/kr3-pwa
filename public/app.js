@@ -25,8 +25,8 @@ aboutBtn.addEventListener('click', () => { setActiveButton('about-btn'); loadCon
 loadContent('home');
 
 function initNotes() {
-  const form = document.getElementById('note-form');
-  const input = document.getElementById('note-input');
+  const noteForm = document.getElementById('note-form');
+  const noteInput = document.getElementById('note-input');
   const reminderForm = document.getElementById('reminder-form');
   const reminderText = document.getElementById('reminder-text');
   const reminderTime = document.getElementById('reminder-time');
@@ -54,11 +54,11 @@ function initNotes() {
     }
   }
 
-  form.addEventListener('submit', (e) => {
+  noteForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    if (input.value.trim()) {
-      addNote(input.value.trim());
-      input.value = '';
+    if (noteInput.value.trim()) {
+      addNote(noteInput.value.trim());
+      noteInput.value = '';
     }
   });
 
