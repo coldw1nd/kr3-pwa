@@ -1,4 +1,4 @@
-const CACHE_NAME = 'notes-cache-v4';
+const CACHE_NAME = 'notes-cache-v5';
 const DYNAMIC_CACHE_NAME = 'dynamic-content-v1';
 const ASSETS = [
   '/',
